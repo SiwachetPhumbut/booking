@@ -1,0 +1,10 @@
+CREATE TABLE name_bk (
+    id_user VARCHAR(100) NOT NULL,
+    pass_user VARCHAR(100) NOT NULL,
+    name_bkc VARCHAR(100) NOT NULL,
+    name_car VARCHAR(100) NOT NULL,
+    address_bkc VARCHAR(100) NOT NULL,
+    tel_bkc VARCHAR(100) NOT NULL,
+    id_car VARCHAR(200) NOT NULL,
+    level_bkc VARCHAR(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
