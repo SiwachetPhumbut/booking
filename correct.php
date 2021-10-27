@@ -2,7 +2,7 @@
 
     session_start();
 
-    if (!$_SESSION['nameid']) {
+    if (!$_SESSION['unameid']) {
         header("Location: name_bk.php");
     } else {
 
