@@ -19,7 +19,7 @@
             $row = mysqli_fetch_array($result);
 
             $_SESSION['unameid'] = $row['id'];
-            $_SESSION['name_bk'] = $row['firstname'] . " " . $row['lastname'];
+            $_SESSION['name_bk'] = $row['name_bkc'] . " " . $row['name_car'];
             $_SESSION['level_bkc'] = $row['level_bkc'];
 
             if ($_SESSION['level_bkc'] == 'u') {

@@ -42,9 +42,9 @@
     ?>
     <form action="login.php" method="post">
         <div class="row mb-3 mt-3 fs-4">
-            <h4><label for="user" class="col-sm-2 col-form-label">ชื่อผู้ใช้</label></h4>
+            <h4><label for="username" class="col-sm-2 col-form-label">ชื่อผู้ใช้</label></h4>
         <div class="col-6">
-        <center><input type="text" name="user"class="form-control" placeholder="กรุณากรอกชื่อผู้ใช้"required></center>
+        <center><input type="text" name="username"class="form-control" placeholder="กรุณากรอกชื่อผู้ใช้"required></center>
             </div>
         </div>
             <br>

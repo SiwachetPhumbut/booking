@@ -1,4 +1,5 @@
 CREATE TABLE name_bk (
+    id INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
     id_user VARCHAR(100) NOT NULL,
     pass_user VARCHAR(100) NOT NULL,
     name_bkc VARCHAR(100) NOT NULL,
