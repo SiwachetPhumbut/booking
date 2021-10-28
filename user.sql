@@ -7,5 +7,5 @@ CREATE TABLE user (
     lastname VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     tel VARCHAR(10) NOT NULL,
-    userlevel VARCHAR(1) NOT NULL
+    leveluser VARCHAR(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

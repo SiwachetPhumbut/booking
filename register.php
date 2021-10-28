@@ -24,7 +24,7 @@
         } else {
             $passwordenc = md5($password);
 
-            $query = "INSERT INTO user (username, password,pre_name, firstname, lastname,email,tel, userlevel)
+            $query = "INSERT INTO user (username, password,pre_name, firstname, lastname,email,tel, leveluser)
                         VALUE ('$username', '$passwordenc','$pre_name', '$firstname', '$lastname', '$email', '$tel', 'm')";
             $result = mysqli_query($conn, $query);
 
@@ -124,7 +124,7 @@
            
             
                 </form>
-
+00
 <br>
 <h3><a href="index.php">กลับสู่ หน้า Login</a></h3>
 </body>

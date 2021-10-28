@@ -20,9 +20,9 @@ if (isset($_POST) && !empty($_POST)){
         <input type="hidden" name="id" value="<?=$_GET['id']?>"
         <lable>ยืนยันการลบข้อมูล</lable><br>
         <input type ="submit" value="ยืนยัน">
-        <button><a href="time_emp.php">ยกเลิก</a></button>
+        <button><a href="name_car.php">ยกเลิก</a></button>
 
         </form>
 </center>     
 <br>
-        <h3><a href="admin.php">หน้าหลัก</a>
+        <h3><a href="header.php">หน้าหลัก</a>
