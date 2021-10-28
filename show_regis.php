@@ -56,7 +56,7 @@ tr:nth-child(even) {
     <center><th><?=$data['firstname']?></th></center>
     <center><th><?=$data['lastname']?></th></center>
     <center><th><?=$data['email']?></th></center>
-    <center><th><?=$data['leveluser']?></th></center>
+    <center><th><?=$data['userlevel']?></th></center>
     <th>
     <center><h2><a href="editregis_bk.php?id=<?=$data['id']?>">แก้ไข and เพิ่ม</a></h2></center>
     <center> <a href="deleteregis_bk.php?id=<?=$data['id']?>">ลบข้อมูล</a></center>

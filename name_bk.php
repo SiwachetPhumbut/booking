@@ -121,7 +121,7 @@
         </div>
     </form>
     <br>
-    <center><h3><p><a href="logout.php">ออกจากระบบ</a></p</h3></center>
+    <center><h3><p><a href="header.php">หน้าหลัก</a></p</h3></center>
     
 </body>
 </html>

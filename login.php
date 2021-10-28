@@ -19,14 +19,14 @@
             $row = mysqli_fetch_array($result);
 
             $_SESSION['userid'] = $row['id'];
-            $_SESSION['user'] = $row['pre_name'] . " " . $row['firstname']. " " . $row['lastname'];
-            $_SESSION['leveluser'] = $row['leveluser'];
+            $_SESSION['user'] = $row['firstname'] . " " . $row['lastname'];
+            $_SESSION['userlevel'] = $row['userlevel'];
 
-            if ($_SESSION['leveluser'] == 'a') {
+            if ($_SESSION['userlevel'] == 'a') {
                 header("Location: admin.php");
             }
 
-            if ($_SESSION['leveluser'] == 'm') {
+            if ($_SESSION['userlevel'] == 'm') {
                 header("Location: user.php");
             }
         } else {

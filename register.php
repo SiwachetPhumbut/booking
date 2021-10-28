@@ -24,7 +24,7 @@
         } else {
             $passwordenc = md5($password);
 
-            $query = "INSERT INTO user (username, password,pre_name, firstname, lastname,email,tel, leveluser)
+            $query = "INSERT INTO user (username, password,pre_name, firstname, lastname,email,tel, userlevel)
                         VALUE ('$username', '$passwordenc','$pre_name', '$firstname', '$lastname', '$email', '$tel', 'm')";
             $result = mysqli_query($conn, $query);
 
@@ -87,7 +87,7 @@
              <div class="input-group mb-3">
                     <label for="pre_name"class="col-sm-2 col-form-label">คำนำหน้า</label>
                     <div class="col-sm-5">
-                    <input type="text" name="pre_name" class="form-control" placeholder="นาย/นางสาว/อื่นๆ/ " required> 
+                    <input type="text" name="pre_name" class="form-control" placeholder="นาย/นางสาว/อื่นๆ/" required> 
                     </div>
             </div>
             <div class="input-group mb-3">
@@ -99,7 +99,7 @@
             <div class="input-group mb-3">
                     <label for="lastname"class="col-sm-2 col-form-label">นามสกุล</label>
                     <div class="col-sm-5">
-                    <input type="text" name="lastname" class="form-control" placeholder=" นามสกุล" required> 
+                    <input type="text" name="lastname" class="form-control" placeholder="นามสกุล" required> 
                 </div>
             </div>
             <div class="input-group mb-3">
