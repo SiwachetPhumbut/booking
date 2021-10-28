@@ -69,7 +69,7 @@
                             </div>
                             </div>
                         <div class="row mb-3 mt-3 fs-4">
-                    <label for="pass_use" class="col-sm-2 col-form-label">รหัสผ่าน</label>
+                    <label for="pass_user" class="col-sm-2 col-form-label">รหัสผ่าน</label>
                         <div class="col-6">
                     <input type="password" name="pass_user"class="form-control" placeholder="รหัสผ่าน" required>
                             </div>

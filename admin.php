@@ -32,7 +32,7 @@
     <div class="container-fluid">
         <a class="nav-link " aria-current="page" href="index.php">หน้า login</a>
             &nbsp;
-        <a class="nav-link " aria-current="page" href="herder.php">หน้าหลัก</a>
+        <a class="nav-link " aria-current="page" href="header.php">หน้าหลัก</a>
             &nbsp;
         <a class="nav-link " aria-current="page" href="register.php">สมัครสมาชิก</a>
             &nbsp;

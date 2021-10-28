@@ -20,13 +20,13 @@
 
             $_SESSION['userid'] = $row['id'];
             $_SESSION['user'] = $row['pre_name'] . " " . $row['firstname']. " " . $row['lastname'];
-            $_SESSION['userlevel'] = $row['userlevel'];
+            $_SESSION['leveluser'] = $row['leveluser'];
 
-            if ($_SESSION['userlevel'] == 'a') {
+            if ($_SESSION['leveluser'] == 'a') {
                 header("Location: admin.php");
             }
 
-            if ($_SESSION['userlevel'] == 'm') {
+            if ($_SESSION['leveluser'] == 'm') {
                 header("Location: user.php");
             }
         } else {
