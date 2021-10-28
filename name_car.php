@@ -98,6 +98,6 @@
                 </form>
 
 <br>
-<h3><a href="admin.php">กลับสู่ หน้า Login</a></h3>
+<h3><a href="header.php">กลับสู่ หน้าหลัก</a></h3>
 </body>
 </html>
